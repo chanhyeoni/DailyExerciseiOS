@@ -13,6 +13,7 @@ class SingupVC: UIViewController {
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
+    
     @IBAction func confirmpassword(sender: AnyObject) {
     }
     override func viewDidLoad() {

@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "61B86C746962111A902DAE726713BF7CD4052419",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "61B86C746962111A902DAE726713BF7CD4052419" : 0,
+    "10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357" : 0,
+    "A65BCAA9B7A77500BBF95593800C3F1B9D215F5E" : 0,
+    "2045D86BC5D391C299DCC498309E722E037BFF4E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A1C6D2E8-6886-4228-BA02-5083B46D302F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "61B86C746962111A902DAE726713BF7CD4052419" : "DailyExercise\/",
+    "10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357" : "DailyExercise\/OAuth2\/SwiftKeychain\/",
+    "A65BCAA9B7A77500BBF95593800C3F1B9D215F5E" : "DailyExercise\/OAuthSwift\/",
+    "2045D86BC5D391C299DCC498309E722E037BFF4E" : "DailyExercise\/OAuth2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DailyExercise",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DailyExercise.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yankodimitrov\/SwiftKeychain",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/p2\/OAuth2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2045D86BC5D391C299DCC498309E722E037BFF4E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chanhyeoni\/DailyExerciseiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61B86C746962111A902DAE726713BF7CD4052419"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/OAuthSwift\/OAuthSwift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A65BCAA9B7A77500BBF95593800C3F1B9D215F5E"
+    }
+  ]
+}

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import OAuth2
+import OAuthSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +19,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true
+    }
+    
+    
+    func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
+        if (url.scheme == "oauth-swift") {
+            
+            let codeValue:String? = getQueryStringParameter(url.absoluteString,param: "code")
+            
+            
+            
+            print ("code is " + codeValue!)
+            
+        }
+        return true
+    }
+    
+    
+    func getQueryStringParameter(url: String?, param: String) -> String? {
+        if let url = url, urlComponents = NSURLComponents(string: url), queryItems = (urlComponents.queryItems! as? [NSURLQueryItem]) {
+            return queryItems.filter({ (item) in item.name == param }).first?.value!
+        }
+        return nil
     }
 
     func applicationWillResignActive(application: UIApplication) {
